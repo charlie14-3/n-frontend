@@ -1,0 +1,39 @@
+/* Make sure the about-container is positioned properly */
+.about-container {
+    border-top: 3px solid #00eaff;
+
+    position: relative; /* Ensures it appears on top */
+    z-index: 1;
+    background-color: black(255, 255, 255, 0.9); /* Slight transparency for visibility */
+    padding: 40px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-description {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #bbbbbb;
+}
+
+
+
+.about-section h2 {
+    color: #00eaff;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.7);
+}
